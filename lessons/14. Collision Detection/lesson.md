@@ -77,11 +77,11 @@ Say we have a point and we want to know if it's within a rectangle. If so, it wi
 
 Let's look at a special case. Say we have XY of 100,100 and the rectangle goes this way with the width of -20 and height of -10. In this case if we have a point inside the rectangle if will not pass the test, as its X is less than rect X and its Y is less than rect Y.
 
-There are few ways to handle this. We can say that width and height must be always positive, but it's kind of arbitrary rule and it's going to make our [pointInRect](../_utils/utils.js) method less useful and more prone to error.
+There are few ways to handle this. We can say that width and height must be always positive, but it's kind of arbitrary rule and it's going to make our [pointInRect](../../utils/utils.js) method less useful and more prone to error.
 
 Another solution would be to create a "smart rectangle" object that will automatically adjust its XY values with the width and height, so its XY is always at the top left and the width and height are always positive.
 
-But here we would rather make the [pointInRect](../_utils/utils.js) more robust and that translates into having this [inRange](../_utils/utils.js) method more robust.
+But here we would rather make the [pointInRect](../../utils/utils.js) more robust and that translates into having this [inRange](../../utils/utils.js) method more robust.
 
 ```js
 inRange: (value, min, max) => {
@@ -97,7 +97,7 @@ inRange: (value, min, max) => {
 },
 ```
 
-We're going to fix our [clamp](../_utils/utils.js) method the same way.
+We're going to fix our [clamp](../../utils/utils.js) method the same way.
 
 > Why is this even needed? Can't we be sure that min and max values will be always in the correct order? Well, when we program games sometimes we may not be sure 
 > if the min and max values we pass into functions are truly min and max. So having this Math.min and Math.max checks is a good practice, just to cover such cases.

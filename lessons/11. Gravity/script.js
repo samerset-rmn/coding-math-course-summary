@@ -1,5 +1,5 @@
-import Particle from '../_utils/particle.js';
-import Vector from '../_utils/vector.js';
+import Particle from '../../utils/particle.js';
+import Vector from '../../utils/vector.js';
 
 document.addEventListener('DOMContentLoaded', () => {
   try {

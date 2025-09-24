@@ -1,4 +1,4 @@
-import Particle from '../_utils/particle.js';
+import Particle from '../../utils/particle.js';
 
 let animationFrame;
 const edgeHandlingFunctions = {

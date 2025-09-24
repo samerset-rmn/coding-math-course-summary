@@ -1,4 +1,4 @@
-import Vector from '../_utils/vector.js';
+import Vector from '../../utils/vector.js';
 
 document.addEventListener('DOMContentLoaded', () => {
   try {

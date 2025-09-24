@@ -1,4 +1,4 @@
-import utils from '../_utils/utils.js';
+import utils from '../../utils/utils.js';
 
 let animationFrame;
 const collisionDetectionFunctions = {

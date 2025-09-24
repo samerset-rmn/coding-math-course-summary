@@ -1,5 +1,5 @@
-import Particle2 from '../_utils/particle2.js';
-import utils from '../_utils/utils.js';
+import Particle2 from '../../utils/particle2.js';
+import utils from '../../utils/utils.js';
 
 let animationFrame;
 const newParticleClassExamples = {

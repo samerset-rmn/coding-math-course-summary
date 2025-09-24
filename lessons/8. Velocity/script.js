@@ -1,4 +1,4 @@
-import Particle from '../_utils/particle.js';
+import Particle from '../../utils/particle.js';
 
 document.addEventListener('DOMContentLoaded', () => {
   try {

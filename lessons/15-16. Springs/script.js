@@ -1,6 +1,6 @@
-import Particle from '../_utils/particle.js';
-import Vector from '../_utils/vector.js';
-import utils from '../_utils/utils.js';
+import Particle from '../../utils/particle.js';
+import Vector from '../../utils/vector.js';
+import utils from '../../utils/utils.js';
 
 let animationFrame;
 const springFunctionsFunctions = {

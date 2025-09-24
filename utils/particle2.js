@@ -1,5 +1,5 @@
 /**
- * New optimized and enhanced version of _utils/particle.js.
+ * New optimized and enhanced version of utils/particle.js.
  *
  * After lesson 17 this is the prefered way to define particles.
  */

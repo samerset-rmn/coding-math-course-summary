@@ -4,7 +4,7 @@ Lesson videos:
 - https://youtu.be/0l2HOznfl3w
 - https://youtu.be/JECGt_yZ8AY
 
-In this lessons we'll create a new more optimized and enhanced version of our [old particle class](../_utils/particle.js) – [Particle2](../_utils/particle2.js).
+In this lessons we'll create a new more optimized and enhanced version of our [old particle class](../../utils/particle.js) – [Particle2](../../utils/particle2.js).
 
 ## Vectors
 
