@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Edge Handling</title>
+    <script src="script.js" type="module"></script>
+    <style>
+      body {
+        margin: 0;
+      }
+      canvas {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="canvas"></canvas>
+    <select id="function" style="position: absolute; top: 10px; left: 10px">
+      <option value="1" selected>Wrapping</option>
+      <option value="2">Removal</option>
+      <option value="3">Regeneration</option>
+      <option value="4">Bouncing</option>
+    </select>
+  </body>
+</html>
